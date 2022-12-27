@@ -159,6 +159,17 @@ main {
     padding: 70px;
     border-color: #070707; }
 
+.nuestrolocal {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: #780188c2;
+  margin: 10px 12px 2px 12px;
+  padding: 30px;
+  border-color: #070707; }
+
 .portada {
   display: inline-block;
   justify-content: center;
