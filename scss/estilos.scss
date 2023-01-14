@@ -186,7 +186,7 @@ p{
     justify-items: end;
     align-items: flex-start;
     font-family: 'Lobster', cursive;
-    font-size: 28px;
+    font-size: 38px;
     color: $color-primario;
     margin: 10px 12px 2px 12px;
     padding: 70px;
@@ -383,7 +383,7 @@ border: 4px;}
             width: 100%;
             height: 100%;
             padding: 10px;
-            font-size: 30px;
+            font-size: 28px;
         }
     }
     .nuestrolocal{
@@ -443,6 +443,10 @@ border: 4px;}
         a{
             width: 100%;
             height: 100%;
+            align-items: center;
+    justify-content: center;
+            margin-left: 32px;
+            font-size: 38px;
         }
         img{
            
@@ -488,16 +492,17 @@ border: 4px;}
     }
     .logo{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     h1{
-        font-size: 42px;
+        font-size: 46px;
         margin-bottom: 10px;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
     }
     img{
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        height: 30%;
     
     }
     }
@@ -511,15 +516,25 @@ border: 4px;}
         }
         p{
         font-size: 34px;
+        align-items: center;
         }
     }
     header{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        nav{
+            flex-direction: column;
+            line-height: 30px;
+            font-size: 24px;
+            ul li{
+                font-size: 74px;
+                margin: 0px 6px 0px 6px;
+                padding-left: 12px;
+                border: 2px;
+            }
     }
-    nav{
-    flex-direction: row;
+   
     }
     footer nav ul li{
         justify-content: center;
